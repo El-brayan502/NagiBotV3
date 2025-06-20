@@ -1,5 +1,5 @@
 {
-"name": "NAGIBOT-MD X BRAYAN",
+"name": "KTS-BOT-MD X Carlos G",
 "version": "2.2.0",
 "description": "Super bot de WhatsApp 2.0",
 "main": "index.js",
@@ -10,24 +10,24 @@
 "plugins": "plugins"
 },
 "scripts": {
-"start": "node index.js",
-"qr": "node index.js qr",
-"code": "node index.js code",
-"test": "node test.js",
-"test2": "nodemon index.js", 
-"eslint": "eslint .",
-"eslintfix": "eslint --fix ."
+    "start": "node index.js",
+    "qr": "node index.js qr",
+    "code": "node index.js code",
+    "test": "node test.js",
+    "test2": "nodemon index.js", 
+    "eslint": "eslint .",
+    "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/El-brayan502/NagiBotV2",
+"homepage": "https://github.com/CARLOSGRCIAGRCIA/NagiBotV2",
 "author": {
 "name": "Brayan330"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/El-brayan502/NagiBotV2.git"
+"url": "git+https://github.com/CARLOSGRCIAGRCIA/NagiBotV2.git"
 },
 "bugs": {
-"url": "https://github.com/El-brayan502/NagiBotV2/issues"
+"url": "https://github.com/CARLOSGRCIAGRCIA/NagiBotV2/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {

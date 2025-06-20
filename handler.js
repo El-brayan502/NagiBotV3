@@ -592,7 +592,7 @@ group: '👥 Esta función solo se puede usar dentro de *grupos*. Intenta en uno
 private: '🔒 Esta función solo está disponible en *chats privados*. Escríbeme en privado para usarla.',
 admin: '👮 Esta función está reservada solo para *administradores del grupo*.',
 botAdmin: '🛑 Necesito ser *administrador del grupo* para poder ejecutar esta función correctamente.',
-unreg: '📛 Usuario no registrado.\n\n📥 Para usar *NagiBotV2* necesitas registrarte.\n\n✅ Usa el siguiente comando:\n#reg TuNombre.Edad\n\n📌 Ejemplo:\n#reg Brayan.18\n\n¡Y listo! Ya podrás usar todas las funciones.',
+unreg: '📛 Usuario no registrado.\n\n📥 Para usar *KTS-BotV2* necesitas registrarte.\n\n✅ Usa el siguiente comando:\n#reg TuNombre.Edad\n\n📌 Ejemplo:\n#reg Brayan.18\n\n¡Y listo! Ya podrás usar todas las funciones.',
 restrict: '⚠️ Esta característica está *desactivada por el propietario del bot*. No se puede usar actualmente.'
 }[type];
 if (msg) return m.reply(msg).then(_ => m.react('✖️'))}
