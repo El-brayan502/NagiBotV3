@@ -190,7 +190,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
         image: { url: img },
         caption: menuText,
         buttons: buttons,
-        footer: "NᴀɢɪBᴏᴛ-ᴍD x Bʀᴀʏᴀɴ Y Cʟᴀʀɪᴛᴀ",
+        footer: "𝘾𝙖𝙧𝙡𝙤𝙨 𝙂",
         viewOnce: true,
       },
       { quoted: m }

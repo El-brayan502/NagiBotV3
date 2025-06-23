@@ -43,13 +43,13 @@ let { say } = cfonts
 
 console.log(chalk.bold.redBright(`\n⇏𝗦𝗘 𝗘𝗦𝗧𝗔 𝗜𝗡𝗜𝗖𝗜𝗔𝗡𝗗𝗢 𝗠𝗔𝗚𝗜𝗕𝗢𝗧 𝗘𝗦𝗣𝗘𝗥𝗘 ⇍\n`))
 
-say('NAGIBOT', {
+say('KTS-BOT', {
 font: 'block',
 align: 'center',
 colors: ['magentaBright']
 })
 
-say(`NagiBotV2 by Brayan330`, {
+say(`KTS-BotV2 by Carlos G`, {
 font: 'console',
 align: 'center',
 colors: ['blueBright']
@@ -168,7 +168,7 @@ if (!!phoneNumber) {
 addNumber = phoneNumber.replace(/[^0-9]/g, '')
 } else {
 do {
-phoneNumber = await question(chalk.bgBlack(chalk.bold.greenBright(`✦ Por favor, Ingrese el número de WhatsApp.\n${chalk.bold.yellowBright(`✏  Ejemplo: 5023145xxxx`)}\n${chalk.bold.magentaBright('---> ')}`)))
+phoneNumber = await question(chalk.bgBlack(chalk.bold.greenBright(`✦ Por favor, Ingrese el número de WhatsApp.\n${chalk.bold.yellowBright(`✏  Ejemplo: 523145xxxx`)}\n${chalk.bold.magentaBright('---> ')}`)))
 phoneNumber = phoneNumber.replace(/\D/g,'')
 if (!phoneNumber.startsWith('+')) {
 phoneNumber = `+${phoneNumber}`
@@ -212,7 +212,7 @@ if (opcion == '1' || methodCodeQR) {
 console.log(chalk.bold.yellow(`\n❐ ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS`))}
 }
 if (connection == 'open') {
-console.log(chalk.bold.green('\nSe conecto a NagiBotV2 correctamente ╰‿╯'))
+console.log(chalk.bold.green('\nSe conecto a kTS-BotV2 correctamente ╰‿╯'))
 }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
 if (connection === 'close') {
