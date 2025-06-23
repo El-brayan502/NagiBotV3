@@ -59,9 +59,9 @@ global.gt = 'ᶜʳᵉᵃᵗᵉᵈ ᴮʸ ᴮʳᵃʸᵃⁿ³³⁰';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.imagen0 = fs.readFileSync('./Nagiv2-brayans.jpg');
-global.imagen1 = fs.readFileSync('./NagiBot.jpg');
-global.catalogo = fs.readFileSync('./Private.png');
+global.imagen0 = fs.readFileSync('./KTS.png');
+global.imagen1 = fs.readFileSync('./KTS.png');
+global.catalogo = fs.readFileSync('./KTS.png');
 
 // Owner : https://qu.ax/MKyTf.jpg
 
