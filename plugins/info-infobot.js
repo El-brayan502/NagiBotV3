@@ -1,9 +1,9 @@
 let handler = async (m, { conn }) => {
   const info = `
 ╭─❒ 「 *INFO DEL BOT* 」
-│ 🤖 *Nombre:* NagiBot-AI
-│ 👑 *Creador:* @Brayan330
-│ 🧠 *Base:* NagiBot-MD
+│ 🤖 *Nombre:* DOLPHIN-AI
+│ 👑 *Creador:* @CarlosG
+│ 🧠 *Base:* DOLPHIN-MD
 │ 🌐 *Plataforma:* Baileys MD
 │ 📆 *Fecha:* ${new Date().toLocaleDateString()}
 ╰───────────────`;

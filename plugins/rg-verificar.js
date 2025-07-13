@@ -42,7 +42,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
     }
 
     let sn = createHash('md5').update(m.sender).digest('hex')
-    let regbot = `┌─⭓ 〘 ʀᴇɢɪsᴛʀᴏ ᴄᴏᴍᴘʟᴇᴛᴏ ‖ NagiBot 〙\n`
+    let regbot = `┌─⭓ 〘 ʀᴇɢɪsᴛʀᴏ ᴄᴏᴍᴘʟᴇᴛᴏ ‖ 𝘿𝙊𝙇𝙋𝙃𝙄𝙉𝘽𝙊𝙏 〙\n`
 regbot += `│\n`
 regbot += `│ 𖥔 Nombre: ${name}\n`
 regbot += `│ 𖥔 Edad: ${age} años\n`
@@ -59,7 +59,7 @@ regbot += `└─➤ Usa *#perfil* para ver tu perfil.`
         text: regbot,
         contextInfo: {
             externalAdReply: {
-                title: '𝙍𝙀𝙂𝙄𝙎𝙏𝙍𝘼𝘿𝙊 / 𝙉𝘼𝙂𝙄𝘽𝙊𝙏💥',
+                title: '𝙍𝙀𝙂𝙄𝙎𝙏𝙍𝘼𝘿𝙊 / 𝘿𝙊𝙇𝙋𝙃𝙄𝙉𝘽𝙊𝙏',
                 thumbnailUrl: 'https://qu.ax/UrOqk.jpg',
                 mediaType: 1,
                 renderLargerThumbnail: true

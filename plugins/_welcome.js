@@ -1,5 +1,6 @@
 import { WAMessageStubType } from '@whiskeysockets/baileys'
 import fetch from 'node-fetch'
+import fs from 'fs'
 
 export async function before(m, { conn, participants, groupMetadata }) {
   if (!m.messageStubType || !m.isGroup) return true
@@ -7,7 +8,9 @@ export async function before(m, { conn, participants, groupMetadata }) {
   let who = m.messageStubParameters[0]
   let taguser = `@${who.split('@')[0]}`
   let chat = global.db.data.chats[m.chat]
-  let defaultImage = 'https://files.catbox.moe/k4cdwk.jpg';
+  //let defaultImage = 'https://files.catbox.moe/k4cdwk.jpg';
+  const defaultImage = fs.readFileSync('../Dolphin.png')  // Carga imagen local una sola vez
+
 
   if (chat.welcome) {
     let img;
@@ -15,11 +18,11 @@ export async function before(m, { conn, participants, groupMetadata }) {
       let pp = await conn.profilePictureUrl(who, 'image');
       img = await (await fetch(pp)).buffer();
     } catch {
-      img = await (await fetch(defaultImage)).buffer();
+      img = defaultImage; 
     }
 
     if (m.messageStubType === WAMessageStubType.GROUP_PARTICIPANT_ADD) {
-      let bienvenida = `┏━〔 *Bienvenido/a* 〕━┓
+      let bienvenida = `┏━〔 *𝘽𝙞𝙚𝙣𝙫𝙚𝙣𝙞𝙙𝙤/𝙖* 〕━┓
 ┃ Usuario: ${taguser}
 ┃ Grupo: *${groupMetadata.subject}*
 ┃
@@ -33,7 +36,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
 ┃ Grupo: *${groupMetadata.subject}*
 ┃
 ┃  ¡𝙊𝙟𝙖𝙡𝙖 𝙩𝙚 𝙢𝙪𝙚𝙧𝙙𝙖 𝙪𝙣 𝙥𝙚𝙧𝙧𝙤!
-┃ 🛠 𝙋𝙪𝙩𝙤 𝙨𝙞 𝙫𝙪𝙚𝙡𝙫𝙚𝙨
+┃ 
 ┗━━━━━━━━━━━━━━━━━━━━━━━━┛`
       await conn.sendMessage(m.chat, { image: img, caption: bye, mentions: [who] })
     }

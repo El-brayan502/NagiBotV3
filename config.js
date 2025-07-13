@@ -1,11 +1,11 @@
-import { watchFile, unwatchFile } from 'fs' 
+import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 import fs from 'fs'
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import axios from 'axios'
-import moment from 'moment-timezone' 
+import moment from 'moment-timezone'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -17,37 +17,37 @@ global.confirmCode = ''
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-['529516526675', '۪〬.࠭⤿ 👑 Carlos G', true],
-['529516526675', '۪〬.࠭⤿ 👑 𝙏𝙃𝙀 𝘿𝘼𝙑𝙄𝘿 𝙎𝙊𝙋𝙊𝙍𝙏', true],
-['529516526675', '۪〬.࠭⤿ 🐶 𝙉𝙊 𝙃𝘼𝘾𝙀 𝙉𝘼𝘿𝘼', true],
-['529516526675', '۪〬.࠭⤿ 👑 𝙍𝙀𝙄𝙉𝘼 𝘽𝘽', true],
-['529516526675', '۪〬.࠭⤿ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈', true]
+  ['529516526675', '۪〬.࠭⤿ 👑 Carlos G', true],
+  ['529516526675', '۪〬.࠭⤿ 👑 𝙏𝙃𝙀 𝘿𝘼𝙑𝙄𝘿 𝙎𝙊𝙋𝙊𝙍𝙏', true],
+  ['529516526675', '۪〬.࠭⤿ 🐶 𝙉𝙊 𝙃𝘼𝘾𝙀 𝙉𝘼𝘿𝘼', true],
+  ['529516526675', '۪〬.࠭⤿ 👑 𝙍𝙀𝙄𝙉𝘼 𝘽𝘽', true],
+  ['529516526675', '۪〬.࠭⤿ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈', true]
 ];
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.mods = ['51946509137', '573162402768', '529516526675', '15614809253']
-global.suittag = ['529516526675'] 
+global.suittag = ['529516526675']
 global.prems = ['51946509137', '573162402768', '529516526675', '15614809253']
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.libreria = 'Baileys'
-global.baileys = 'V 6.7.9' 
+global.baileys = 'V 6.7.9'
 global.languaje = 'Español'
 global.vs = '2.2.0'
 global.vsJB = '5.0'
 global.nameqr = 'Nagiqr'
-global.namebot = 'KTS-Bot'
+global.namebot = 'DOLPHIN-Bot'
 global.sessions = 'Sessions'
-global.jadi = 'JadiBots' 
+global.jadi = 'JadiBots'
 global.NagiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = 'KTS - BOT－ｖ²'
-global.botname = '𝙆𝙏𝙎-𝘽𝙊𝙏-𝙫²'
-global.wm = '𝙆𝙏𝙎-𝘽𝙊𝙏-𝗠𝗗'
+global.packname = 'DOLPHINBOT－ｖ²'
+global.botname = '𝘿𝙊𝙇𝙋𝙃𝙄𝙉𝘽𝙊𝙏-𝙫²'
+global.wm = '𝘿𝙊𝙇𝙋𝙃𝙄𝙉𝘽𝙊𝙏-𝗠𝗗'
 global.author = 'By Carlos G'
 global.dev = '୧ㅤCarlos G '
 global.textbot = 'Carlos G'
@@ -59,21 +59,21 @@ global.gt = 'ᶜʳᵉᵃᵗᵉᵈ ᴮʸ ᴮʳᵃʸᵃⁿ³³⁰';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.imagen0 = fs.readFileSync('./KTS.png');
-global.imagen1 = fs.readFileSync('./KTS.png');
-global.catalogo = fs.readFileSync('./KTS.png');
+global.imagen0 = fs.readFileSync('./Dolphin.png');
+global.imagen1 = fs.readFileSync('./Dolphin.png');
+global.catalogo = fs.readFileSync('./Dolphin.png');
 
 // Owner : https://qu.ax/MKyTf.jpg
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.moneda = 'Yenes'
-global.banner = 'https://files.catbox.moe/almkk6.jpg'
-global.avatar = 'https://files.catbox.moe/k4cdwk.jpg'
+global.banner = fs.readFileSync('./Dolphin.png');
+global.avatar = fs.readFileSync('./Dolphin.png');
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.catalogo = fs.readFileSync('./src/catalogo.jpg');
+global.catalogo = fs.readFileSync('./Dolphin.png');
 global.photoSity = [catalogo]
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -84,13 +84,13 @@ global.channel = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
 global.channel2 = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
 global.md = 'https://github.com/El-brayan502/NagiBotV2'
 global.correo = 'brayanfree881@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029Vb4cQJu2f3EB7BS7o11M';
+global.cn = 'https://whatsapp.com/channel/0029Vb4cQJu2f3EB7BS7o11M';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
+global.estilo = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount: -999999, status: 1, surface: 1, message: packname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net' } } }
 global.ch = {
-ch1: '120363312092804854@newsletter', //NagiBot-MD
+  ch1: '120363312092804854@newsletter', //NagiBot-MD
 }
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -133,19 +133,19 @@ global.APIs = {
   xyroinee: 'https://api.xyroinee.xyz',
   nekobot: 'https://nekobot.xyz'
 },
-global.APIKeys = {
-  'https://api.xteam.xyz': `${keysxteam}`,
-  'https://api.lolhuman.xyz': 'GataDios',
-  'https://api.neoxr.my.id': `${keysneoxr}`,
-  'https://api.zahwazein.xyz': `${keysxxx}`,
-  'https://api-fgmods.ddns.net': 'fg-dylux',
-  'https://api.botcahx.biz.id': 'Admin',
-  'https://api.fgmods.xyz': `${fgkeysapi}`,
-  'https://api.ibeng.tech/docs': 'tamvan',
-  'https://api.itsrose.site': 'Rs-Zeltoria',
-  'https://api-xcoders.site': 'Frieren',
-  'https://api.xyroinee.xyz': 'uwgflzFEh6'
-};
+  global.APIKeys = {
+    'https://api.xteam.xyz': `${keysxteam}`,
+    'https://api.lolhuman.xyz': 'GataDios',
+    'https://api.neoxr.my.id': `${keysneoxr}`,
+    'https://api.zahwazein.xyz': `${keysxxx}`,
+    'https://api-fgmods.ddns.net': 'fg-dylux',
+    'https://api.botcahx.biz.id': 'Admin',
+    'https://api.fgmods.xyz': `${fgkeysapi}`,
+    'https://api.ibeng.tech/docs': 'tamvan',
+    'https://api.itsrose.site': 'Rs-Zeltoria',
+    'https://api-xcoders.site': 'Frieren',
+    'https://api.xyroinee.xyz': 'uwgflzFEh6'
+  };
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -153,7 +153,7 @@ global.cheerio = cheerio
 global.fs = fs
 global.fetch = fetch
 global.axios = axios
-global.moment = moment   
+global.moment = moment
 
 global.rpg = {
   emoticon(string) {
@@ -181,8 +181,9 @@ global.rpg = {
     const results = Object.keys(emot).map((v) => [v, new RegExp(v, 'gi')]).filter((v) => v[1].test(string));
     if (!results.length) return '';
     else return emot[results[0][0]];
-  }};
-global.rpgg = { 
+  }
+};
+global.rpgg = {
   emoticon(string) {
     string = string.toLowerCase();
     const emott = {
@@ -208,7 +209,8 @@ global.rpgg = {
     const results = Object.keys(emott).map((v) => [v, new RegExp(v, 'gi')]).filter((v) => v[1].test(string));
     if (!results.length) return '';
     else return emott[results[0][0]];
-  }};  
+  }
+};
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 

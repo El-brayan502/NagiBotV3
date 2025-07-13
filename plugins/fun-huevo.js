@@ -11,12 +11,12 @@ const handler = async (m, { conn, usedPrefix, command, text }) => {
 
   if (!who) return m.reply(`${emoji} Por favor, menciona aun usuario.`);
 
-  let pp = './src/catalogo.jpg';
+  let pp = '../Dolphin.png';
   try {
     pp = await conn.getProfilePicture(who);
   } catch (e) {
   } finally {
-    let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './src/catalogo.jpg');
+    let pp = await conn.profilePictureUrl(who, 'image').catch(_ => '../Dolphin.png');
     let username = conn.getName(who);
     let str = `@${m.sender.split('@')[0]} le está agarrando el huevo a @${who.split('@')[0]}.`;
     let mentionedJid = [who, m.sender];

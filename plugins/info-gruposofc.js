@@ -1,19 +1,21 @@
+import fs from 'fs'
+
 let handler = async (m, { conn, usedPrefix, command }) => {
   let grupos = `*¡Hola! Te invito a unirte a los grupos oficiales del bot para convivir con la comunidad...*
 
    ╭─━━───╼◈◉◈╾───━━─╮
    │ *『 1. Grupo Oficial 』*
-   ├─ ❏ ⚽️ https://chat.whatsapp.com/C7B0xV6SZLvEQ6sBfEZCSD
+   ├─ ❏ ⚽️ https://chat.whatsapp.com/EdND7QAHE9w0XPYGx2ZfQw
    ╰─━━────────────━━─╯
 
    ╭─━━───╼◈◉◈╾───━━─╮
    │ *『 Canal Oficial 』*
-   ├─ ❏ ⚽️ https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W
+   ├─ ❏ ⚽️ https://whatsapp.com/channel/0029VbAfBzIKGGGKJWp5tT3L
    ╰─━━────────────━━─╯`
 
-  const catalogo1 = 'https://qu.ax/QmXxc.jpg'
+  const catalogo1 = fs.readFileSync('../Dolphin.png')
 
-  await conn.sendFile(m.chat, catalogo1, 'NagiBot.jpg', grupos, m, rcanal)
+  await conn.sendFile(m.chat, catalogo1, 'Dolphin.png', grupos, m, rcanal)
   await m.react(emojis)
 }
 
