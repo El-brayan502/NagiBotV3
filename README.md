@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> Este bot ya no resivira mantenimiento chao
+
 <!-- Banner animado -->
 <p align="center">
   <img src="https://files.catbox.moe/4v07bp.jpg" alt="NagiBot Banner" width="100%"/>
