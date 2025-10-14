@@ -1,5 +1,6 @@
 > [!IMPORTANT]  
-> Este bot ya no resivira mantenimiento chao
+> Este bot ya no resivira mantenimiento gracias por el apoyo 💚  ah este proyecto 
+
 
 <!-- Banner animado -->
 <p align="center">
