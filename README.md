@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> Este bot ya no resivira mantenimiento gracias por el apoyo 💚  ah este proyecto 
+> Este proyecto ya no resivira mantenimiento pero Vamos a revivirlo algún día 💖
 
 
 <!-- Banner animado -->
