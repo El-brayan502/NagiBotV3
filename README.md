@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> Este proyecto ya no resivira mantenimiento pero Vamos a revivirlo algún día 💖
+> próximamente nagi v3 actualizado fecha de publicación 2026/2/12
 
 
 <!-- Banner animado -->
