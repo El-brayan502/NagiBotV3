@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> próximamente nagi v3 actualizado fecha de publicación 2026/2/12
+> Próximamente estará disponible la versión actualizada de NagiBot V3. ¡Espérala el 12 de febrero de 2026! Esta nueva versión incluirá mejoras y nuevas funcionalidades para una mejor experiencia 👻
 
 
 <!-- Banner animado -->
