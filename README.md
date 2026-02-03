@@ -24,11 +24,11 @@ pkg install git nodejs ffmpeg imagemagick -y
 ```
 
 ```bash
-git clone https://github.com/xzzys26/Gaara-Ultra-MD
+git clone https://github.com/El-brayan502/NagiBotV3
 ```
 
 ```bash
-cd Gaara-Ultra-MD
+cd NagiBotV3
 ```
 
 ```bash
