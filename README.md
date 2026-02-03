@@ -46,5 +46,5 @@ npm start
 
 | Rol         | Nombre        |
 |-------------|---------------|
-| Autor       | Brayan Free   |
-| Colaborador | Carlos        |
+| Autor       | Brayan330   |
+| Colaborador | DuarteXV    |
