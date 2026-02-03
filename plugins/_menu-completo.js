@@ -30,6 +30,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 > ${usedPrefix}instagram (url)
 > ${usedPrefix}fb (url)
 > ${usedPrefix}facebook (url)
+> ${usedPrefix}soundcloud (texto)
 
 *+ MENU OWNER*
 > ${usedPrefix}update 
