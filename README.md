@@ -42,7 +42,7 @@ npm start
 ---
 
 
-## 👥 Equipo
+## 👥 Desarrolladores
 
 | Rol         | Nombre        |
 |-------------|---------------|
