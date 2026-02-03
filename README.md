@@ -38,3 +38,10 @@ npm install
 ```bash
 npm start
 ```
+
+## 👥 Equipo
+
+| Rol         | Nombre        |
+|-------------|---------------|
+| Autor       | Brayan Free   |
+| Colaborador | Carlos        |
