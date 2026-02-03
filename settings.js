@@ -9,7 +9,7 @@ global.owner = [
   ['573244278232', 'Neji ssj', true],
   ['50231458537', 'BrayanX330', true],
   ['573229506110','DuarteXV',true]
-  ['51941658192', 'pedofilo-ux', true]
+  ['51941658192','Perro',true]
 ]
 global.mods = []
 global.prems = []
