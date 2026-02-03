@@ -42,8 +42,7 @@ npm start
 ---
 
 
-## 👥 Desarrolladores
-src="https://cdn3.emoji.gg/emojis/3653-animegirl-dance.gif" alt="Brayan" width="60"/>
+## 👥 Desarrolladores src="https://cdn3.emoji.gg/emojis/3653-animegirl-dance.gif" alt="Brayan" width="60"/>
 
 | Rol         | Nombre        |
 |-------------|---------------|
