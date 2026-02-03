@@ -3,7 +3,9 @@
 ---
 
 📁 src/
- ┣ 📁 api/n
+
+ ┣ 📁 api/
+
  ┣ 📁 handlers/
  ┣ 📁 commands/
  ┣ 📄 index.js
