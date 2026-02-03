@@ -25,6 +25,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 👤 Usuario: ${taguser}
 
 *+ MENU DOWNLOADER*
+> ${usedPrefix}play (name)
 > ${usedPrefix}ig
 > ${usedPrefix}instagram 
 > ${usedPrefix}fb
