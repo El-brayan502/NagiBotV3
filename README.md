@@ -41,7 +41,7 @@ npm start
 
 ---
 
-[**Canal de Actualizaciones**] src="https://cdn3.emoji.gg/emojis/4045-crown.gif" alt="Channel" width="40"/>
+**Canal de Actualizaciones** <img src="https://cdn3.emoji.gg/emojis/4045-crown.gif" alt="Channel" width="40"/>
 
 | Rol         | Nombre        |
 |-------------|---------------|
