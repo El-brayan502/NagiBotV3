@@ -39,6 +39,9 @@ npm install
 npm start
 ```
 
+---
+
+
 ## 👥 Equipo
 
 | Rol         | Nombre        |
