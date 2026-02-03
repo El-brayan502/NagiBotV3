@@ -6,6 +6,7 @@
 <p align="center">
   <b>Autor:</b> Brayan330
 </p>
+
 ---
 
 > Nota: Copie y pegue los comandos en termux uno por uno.
