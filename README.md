@@ -3,5 +3,5 @@
 ---
 <!-- Créditos -->
 <p align="center">
-  <b>Autor:</b> Brayan Free · <b>Colaborador:</b> Carlos
+  <b>Autor:</b> Brayan330
 </p>
