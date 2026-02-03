@@ -26,10 +26,10 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 *+ MENU DOWNLOADER*
 > ${usedPrefix}play (name)
-> ${usedPrefix}ig
-> ${usedPrefix}instagram 
-> ${usedPrefix}fb
-> ${usedPrefix}facebook 
+> ${usedPrefix}ig (url)
+> ${usedPrefix}instagram (url)
+> ${usedPrefix}fb (url)
+> ${usedPrefix}facebook (url)
 
 *+ MENU OWNER*
 > ${usedPrefix}update 
@@ -41,7 +41,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 > ${usedPrefix}sticker
 
 *+ MENU GRUPO*
-> ${usedPrefix}kick
+> ${usedPrefix}kick (@tag)
 > ${usedPrefix}link
 `.trim(),
 
