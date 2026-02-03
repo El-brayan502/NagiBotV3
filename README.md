@@ -41,8 +41,7 @@ npm start
 
 ---
 
-
-## 👥 Desarrolladores src="https://cdn3.emoji.gg/emojis/3653-animegirl-dance.gif" alt="Brayan" width="60"/>
+[**Canal de Actualizaciones**](https://whatsapp.com/channel/0029Vb6BDQc0lwgsDN1GJ31i)<img src="https://cdn3.emoji.gg/emojis/4045-crown.gif" alt="Channel" width="40"/>
 
 | Rol         | Nombre        |
 |-------------|---------------|
